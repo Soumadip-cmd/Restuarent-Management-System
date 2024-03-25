@@ -1,0 +1,29 @@
+.bill-body{
+    background: url(../../../public/yourbill-bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+.logo-bg-style{
+    background-color: transparent;
+    height: 89px;
+}
+.img-pos{
+    border-radius: 100%;
+    width: 106px;
+    height: 100px;
+    position: absolute;
+    right: 28px;
+    transform: rotate(7deg);
+    z-index: 3;
+}
+.img-premium-pos{
+    position: absolute;
+    right: 128px;
+    z-index: 1;
+    height: 128px;
+    transform: rotate(339deg);
+}

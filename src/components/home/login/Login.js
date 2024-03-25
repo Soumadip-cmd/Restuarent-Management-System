@@ -8,7 +8,7 @@ const Login = () => {
   }
   return (
     <>
-      <button className="btn btn-outline-light me-md-2 px-5 py-2 fs-5" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLogin">
+      <button className="btn btn-outline-light me-md-2 px-5 py-2 fs-5" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropLogin" style={{borderRadius:'100px'}}>
         Login
       </button>
       <div className="modal fade btn-body" id="staticBackdropLogin" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">

@@ -2,7 +2,6 @@
     color: black;
     font-family: "poppins", cursive;
 }
-/* .btn-close {
-    height: .4rem;
-    width: .4rem; 
-  } */
+.px-5{
+    padding: 0px 20px;
+}
