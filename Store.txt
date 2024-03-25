@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Satisfy&display=swap')
+
+here
+[Logo Name]:->Ojuju
+[default Font]:->Nunito/Manrope
+[Signature Footer]:->Satisfy{(my name)}
+
+
+song--
+kya tujhe ab ye dil bataye
+
+
+height problem occured from 430 width, 930 height

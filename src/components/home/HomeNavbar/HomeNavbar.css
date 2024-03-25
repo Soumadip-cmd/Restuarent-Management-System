@@ -1,0 +1,30 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent; 
+    
+  }
+
+  .nav-pills .nav-link:hover {
+    background-color: #eeeaea33; 
+    
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-item .line {
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform-origin: bottom left;
+    width: 0;
+    border-radius: 5px;
+  }
+  
+  .nav-item:hover .line {
+    width: 100%;
+  }
+  

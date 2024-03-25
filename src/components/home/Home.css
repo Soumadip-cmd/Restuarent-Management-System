@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Macondo&display=swap");
+.home-Body {
+  background: url("../../../public/restuarant-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.btn-special {
+  background-color: #de061b;
+  color: #fff;
+  border: #de061b;
+}
+.btn-special:hover {
+  background-color: #a70818;
+  color: #fff;
+}
+.fontS1 {
+  font-size: 7.8em;
+}
+.fontS2 {
+  font-size: 2.5em;
+}
+
+/* Define media queries for different screen sizes */
+@media screen and (max-width: 991px) {
+  .fontS1 {
+    font-size: 6.25em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fontS1 {
+    font-size: 4.68em;
+  }
+  .fontS2 {
+    font-size: 1.56em;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .fontS1 {
+    font-size: 3.12em;
+  }
+  .fontS2 {
+    font-size: 1.4em;
+  }
+}
+
+.btnH {
+  height: auto;
+}
+@media screen and (max-width: 530px) {
+  .btnH {
+    position: relative;
+    top: 12vh;
+  }
+}
+@media screen and (max-width: 380px) {
+  .btnH {
+    position: relative;
+    top: 0;
+  }
+}
+
+.animated{
+    opacity: 0; 
+    animation: fade-in 3s 1 forwards; 
+}
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  .animated-special{
+    opacity: 0; 
+    animation: fade-in-bottom 2s 1 forwards; 
+    
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+  }
