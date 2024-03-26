@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import './Login.css'
 
+
 const Login = () => {
   let refCls=useRef(null)
   const loginBtn =()=>{
@@ -27,7 +28,7 @@ const Login = () => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="exampleInputPassword1" className="form-label" >Password</label>
-                  <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Password atleast 5 Charecters.'/>
+                  <input type="password" className="form-control" id="exampleInputPassword1" />
                 </div>
 
 
@@ -40,7 +41,7 @@ const Login = () => {
               </div>
               <button type="button" className="btn btn-primary px-4" onClick={loginBtn}>Login</button>
             </div>
-              <span className='d-flex justify-content-center'>Don't have an Account?→<a href='/'>SignUp Here</a></span><br/>
+              <span className='d-flex justify-content-center'>Don't have an Account?→<span data-bs-toggle="modal" data-bs-target="#staticBackdropSignUp" style={{textDecoration:'underline',color:'blue',cursor:'pointer'}}>SignUp Here</span></span><br/>
           </div>
         </div>
       </div>

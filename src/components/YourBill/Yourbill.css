@@ -1,29 +1,60 @@
-.bill-body{
-    background: url(../../../public/yourbill-bg2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+.bill-body {
+  background: url(../../../public/yourbill-bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 150vh; */
+  height: calc(100vh);
+  overflow-y: auto;
+  width: 100vw;
+  
+}
+.logo-bg-style {
+  background-color: transparent;
+  height: 89px;
+}
+.img-pos {
+  border-radius: 100%;
+  width: 106px;
+  height: 100px;
+  position: absolute;
+  right: 28px;
+  transform: rotate(7deg);
+  z-index: 3;
+}
+.img-premium-pos {
+  position: absolute;
+  right: 128px;
+  z-index: 1;
+  height: 128px;
+  transform: rotate(339deg);
+}
+.responsive-card {
+  width: 690.4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+}
+@media screen and (max-width: 770px) {
+  .bill-body {
+    height: 200vh;
+    overflow-y: auto;
+    width: 695px;
+  }
+}
 
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 166, 0, 0.452); /* Set your desired color for odd rows */
+  }
+  
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color: white; /* Set your desired color for even rows */
+  }
+.side-pos{
+    position: relative;
+    bottom: 14px;
 }
-.logo-bg-style{
-    background-color: transparent;
-    height: 89px;
-}
-.img-pos{
-    border-radius: 100%;
-    width: 106px;
-    height: 100px;
-    position: absolute;
-    right: 28px;
-    transform: rotate(7deg);
-    z-index: 3;
-}
-.img-premium-pos{
-    position: absolute;
-    right: 128px;
-    z-index: 1;
-    height: 128px;
-    transform: rotate(339deg);
+.special{
+    background-color: rgba(255, 166, 0);
+    height: 28px;
+    border-radius: 3px;
 }

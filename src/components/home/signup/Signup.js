@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import './Signup.css'
 
+
 const Signup = () => {
   let refClose = useRef(null)
   const signupBtn = () => {
@@ -46,7 +47,7 @@ const Signup = () => {
               </form>
             </div>
             <div className="modal-footer d-flex justify-content-center flex-column">
-                <span>Already a member?→<a href='/'>Login Here</a></span><br/>
+                <span>Already a member?→<span data-bs-toggle="modal" data-bs-target="#staticBackdropLogin" style={{textDecoration:'underline',color:'blue',cursor:'pointer'}}>Login Here</span></span><br/>
               <button type="button" className="btn btn-primary px-4" onClick={signupBtn}>Sign-Up</button>
             </div>
           </div>
