@@ -8,7 +8,8 @@
   height: calc(100vh);
   overflow-y: auto;
   width: 100vw;
-  
+
+
 }
 .logo-bg-style {
   background-color: transparent;
@@ -33,6 +34,7 @@
 .responsive-card {
   width: 690.4px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+  
 }
 @media screen and (max-width: 770px) {
   .bill-body {
@@ -43,11 +45,11 @@
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(255, 166, 0, 0.452); /* Set your desired color for odd rows */
+    background-color: rgba(255, 166, 0, 0.452);
   }
   
   .table-striped tbody tr:nth-of-type(even) {
-    background-color: white; /* Set your desired color for even rows */
+    background-color: white; 
   }
 .side-pos{
     position: relative;
@@ -57,4 +59,48 @@
     background-color: rgba(255, 166, 0);
     height: 28px;
     border-radius: 3px;
+}
+
+@media print {
+  .bill-body {
+    background: none; 
+  }
+
+  .responsive-card {
+    width: auto !important; 
+    box-shadow: none !important; 
+  }
+
+  .print-content {
+    overflow: hidden !important; /* Hide scrollbar */
+    position: relative !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .print-image {
+    width: 100% !important;
+    height: auto !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    
+  }
+  .print-only {
+    display: none !important;
+  }
+  body {
+    background: none !important;
+  }
+  * {
+    color: inherit !important;
+  }
+  .bill-body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
 }

@@ -10,4 +10,13 @@ song--
 kya tujhe ab ye dil bataye
 
 
-height problem occured from 430 width, 930 height
+font-family: "Nunito", sans-serif;
+ fontFamily: '"Macondo", cursive' 
+
+
+ //create bill form---
+ 1.Manager Name
+2.Restuarent Address
+3.Restuarent's Name
+4.authorized sign(as png)
+5.url of website of that restuarent(if exists ..optional)
