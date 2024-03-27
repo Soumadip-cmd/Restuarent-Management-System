@@ -13,7 +13,7 @@ const Signup = () => {
         Sign-Up
       </button>
       <div className="modal fade btn-body" id="staticBackdropSignUp" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div className="modal-dialog">
+        <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
             <div className="modal-header">
               <h4 className="modal-title" id="staticBackdropLabel">Sign Up</h4>

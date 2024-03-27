@@ -5,11 +5,13 @@ import RatingStar from "./RatingStar";
 import QRcode from "./QRcode";
 import Print from "./Print";
 import BillNavbar from "./BillNavbar";
+import PaymentBill from "./PaymentBill";
 
 const Yourbill = () => {
   return (
-    <div className="bill-body pb-5">
+    <div className="bill-body pb-5 ">
       <BillNavbar />
+      
       <div className=" text-center py-4 print-content">
         <h2>
           <b>Bill Details</b>
@@ -295,7 +297,10 @@ const Yourbill = () => {
           </div>
         </div>
       </div>
-      <Print />
+      <div className="container d-flex justify-content-evenly my-4 ">
+        <Print />
+        <PaymentBill />
+      </div>
     </div>
   );
 };

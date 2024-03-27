@@ -20,3 +20,5 @@ font-family: "Nunito", sans-serif;
 3.Restuarent's Name
 4.authorized sign(as png)
 5.url of website of that restuarent(if exists ..optional)
+
+//**payment Bill frontend is pending do this by razor pay
