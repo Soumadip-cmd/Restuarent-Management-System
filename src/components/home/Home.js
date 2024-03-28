@@ -38,7 +38,7 @@ const Home = () => {
           Restuarant & Management System
         </div>
       </div>
-      <div class="d-grid gap-3 d-md-flex justify-content-center my-4 btnH">
+      <div className="d-grid gap-3 d-md-flex justify-content-center my-4 btnH">
         <Login />
         <Signup />
       </div>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
+.menuBody {
+  background-image: url(../../../public/menuBG.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: (100vh);
+  /* width: 100vw; */
+  color: #2e3035;
+}
+.header-style{
+  /* color: black; */
+  font-family: "Tauri", sans-serif;
+  font-weight: 800;
+  font-size: 4.5em;
+}
+.menu {
+  background-image: url(../../../public/menuItemBg2.jpeg); /* Set background image */
+  background-repeat: no-repeat; /* Don't repeat the background image */
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Cover the entire area with the background image */
+  background-attachment: fixed; /* Fix the background image position */
+  border-radius: 24px; /* Apply border radius for rounded corners */
+  /* Uncomment the line below if you want the menu to take up the full height of the viewport */
+  /* height: 100vh; */
+}
+.card{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); /* Apply box shadow */
+  
+}
+
+.box{
+
+}
+@media screen and (max-width: 646px) {
+  .menuBody{
+    width: 711px;
+    height: 250vh;
+  }
+  .menu{
+    height: auto;
+
+  }
+}
+/* Styles for screens larger than 600px */
+/* @media only screen and (min-height: 653px) and (max-width: 300px) {
+  .menuBody{
+    height: max-content;
+  }
+ 
+} */

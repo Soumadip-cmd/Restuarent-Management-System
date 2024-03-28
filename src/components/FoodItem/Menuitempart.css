@@ -1,0 +1,22 @@
+.img-underline{
+    letter-spacing: 0.103em;
+    font-family: Macondo, cursive;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table-striped2 tbody tr:nth-of-type(odd) {
+    background-color: rgba(234, 230, 218, 0.68);
+    
+  }
+  
+  .table-striped2 tbody tr:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, 0.767); 
+    
+  }
+  .table.table-striped2.table-hover tbody tr td {
+    color: #2e3035;
+    
+  }
+  

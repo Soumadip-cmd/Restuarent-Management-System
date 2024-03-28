@@ -1,0 +1,8 @@
+.bg-light {
+    background-color: red; /* Light blue background color */
+    /* Add any other custom styles */
+  }
+.seebill-pos{
+  position: relative;
+    bottom: 46px;
+}

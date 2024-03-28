@@ -1,4 +1,4 @@
-import Footitem from "./components/FoodItem/Footitem";
+import Fooditem from "./components/FoodItem/Fooditem";
 import Yourbill from "./components/YourBill/Yourbill";
 import Home from "./components/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/fooditem">
-            <Footitem/>
+            <Fooditem/>
           </Route>
           <Route exact path="/yourbill">
             <Yourbill/>

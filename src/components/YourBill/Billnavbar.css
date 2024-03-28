@@ -12,3 +12,7 @@
       display: none;
     }
   }
+.home-btn-pos{
+  position: absolute;
+  top: 9px;
+}

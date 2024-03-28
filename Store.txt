@@ -14,11 +14,9 @@ font-family: "Nunito", sans-serif;
  fontFamily: '"Macondo", cursive' 
 
 
- //create bill form---
- 1.Manager Name
-2.Restuarent Address
-3.Restuarent's Name
-4.authorized sign(as png)
-5.url of website of that restuarent(if exists ..optional)
-
+ 
 //**payment Bill frontend is pending do this by razor pay
+
+//at confirm Menu modal add 'Sure' button by replacing 'save changes ' button
+and after 'sure' its history.push('./pageroute{BILL}')
+//only 4 photos add on a single page for menu
