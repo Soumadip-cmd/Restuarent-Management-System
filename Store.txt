@@ -20,3 +20,14 @@ font-family: "Nunito", sans-serif;
 //at confirm Menu modal add 'Sure' button by replacing 'save changes ' button
 and after 'sure' its history.push('./pageroute{BILL}')
 //only 4 photos add on a single page for menu
+
+-----create Menu
+1.topic name
+2.how many items you want to add for the topic?**{not add any required in the field for item name & price . If any one want to leave it blankmythey can do this.}
+3.depend on number 2 its acccess
+{item name, price}
+
+4.topic name image:-->(optional)
+ fetch the topic name by unsplash And see a image
+ or 
+ upload image option also have present.

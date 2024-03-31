@@ -9,7 +9,7 @@ const BillNavbar = () => {
   return (
     <>
       <div className=" bg-dark hidden-on-print">
-      <header className="d-flex justify-content-between py-2 align-items-center ">
+      <header className="d-flex justify-content-between py-2 align-items-center " style={{position:'relative'}}>
       <div className="px-4 ">
       <Link
             to="/"
