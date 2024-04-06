@@ -1,6 +1,6 @@
 import React from 'react'
 import './Fooditem.css'
-import MenuitemPart from './MenuitemPart'
+import MenuitemPart from './MenuitemPart/MenuitemPart'
 import MenuFooter from './MenuFooter'
 import PrevNext from './PrevNext'
 import EditMenu from './EditMenu/EditMenu'

@@ -1,6 +1,7 @@
 import React from "react";
 import './FoodNavbar.css'
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import CreateMenu from "./CreateMenu/CreateMenu";
 
 const FoodItemNavbar = () => {
   return (
@@ -22,15 +23,10 @@ const FoodItemNavbar = () => {
 
             className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
           >
-            <button
-              type="button"
-              className="btn btn-danger mx-3"
-
-            >
-              Create Your Menu
-            </button>
+            <CreateMenu/>
             
-              <Link className="btn btn-success" to="" role="button">Edit Your Menu</Link>
+              <span className="btn btn-success" to="" role="button" data-bs-toggle="modal"
+          data-bs-target="#EditMenu">Edit Your Menu</span>
             
           </span>
 

@@ -39,7 +39,8 @@ const Signup = () => {
                 </div>
                 <div className=" mb-3">
                   <select className='form-control'>
-                    <option default selected value={'--Choose Your Field--'}>--Choose Your Field--</option>
+                  {/* \\n */}
+                    <option disabled selected value={'--Choose Your Field--'}>--Choose Your Field--</option>
                     <option>Professional Staff</option>
                     <option>Diners</option>
                   </select>
