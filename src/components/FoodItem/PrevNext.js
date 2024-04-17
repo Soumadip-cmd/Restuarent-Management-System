@@ -4,7 +4,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const PrevNext = () => {
   return (
     <>
-      {/* <div className="btn-group" role="group" aria-label="Basic outlined example">
+      <div className="btn-group" role="group" aria-label="Basic outlined example">
             <button type="button" className="btn btn-outline-dark">
                 &#11164;
               </button>
@@ -14,8 +14,8 @@ const PrevNext = () => {
               <button type="button" className="btn btn-outline-dark">
                 &#11166;
               </button>
-            </div> */}
-      <nav aria-label="Page navigation example">
+            </div>
+      {/* <nav aria-label="Page navigation example">
         <ul className="pagination">
           <li className="page-item">
             <Link className=" page-link  btn btn-outline-dark" to="/" role="button">
@@ -33,9 +33,11 @@ const PrevNext = () => {
             </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </>
   );
 };
 
 export default PrevNext;
+
+// page navigation is used to take action in prev next button
