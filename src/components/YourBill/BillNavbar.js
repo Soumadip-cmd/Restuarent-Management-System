@@ -30,7 +30,7 @@ const BillNavbar = () => {
               <Link className="btn btn-success" to="/fooditem" role="button">View Menu</Link>
             </div>
             <div className="modal fade" id="exampleModalcreateBill" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog2">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h5 className="modal-title" id="exampleModalLabel">Bill-Details</h5>
